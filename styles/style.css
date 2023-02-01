@@ -143,14 +143,210 @@
   width: 100%;
   padding: 1rem 0;
   background-color: rgba(85, 85, 85, 0.719);
+  box-shadow: 0 0 0.5rem 0.5rem rgba(85, 85, 85, 0.719);
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .workExperience_title {
+  color: white;
   font-family: "PNBC-ExtraBold";
   align-self: flex-start;
   margin-left: 1rem;
+}
+.workExperience_divs {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.workExperience_divs_card {
+  width: 92%;
+  min-height: 15rem;
+  display: flex;
+  position: relative;
+  background-color: rgb(219, 219, 219);
+  margin: 1rem 0;
+  box-shadow: 0 0 0.5rem 0.25rem rgb(219, 219, 219);
+}
+.workExperience_divs_card img {
+  max-width: 9rem;
+  max-height: 9rem;
+  margin: 0 0 0 0.5rem;
+  position: absolute;
+}
+.workExperience_divs_card_desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.workExperience_divs_card_desc_position {
+  width: calc(100% - 9.5rem);
+  height: 9rem;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.workExperience_divs_card_desc_position h4 {
+  font-family: "PNBC-ExtraBold";
+  font-size: 1.8rem;
+}
+.workExperience_divs_card_desc h4, .workExperience_divs_card_desc h5 {
+  font-family: "PNBC-Bold";
+}
+.workExperience_divs_card_desc_p {
+  margin: 0 0.5rem;
+}
+.workExperience_divs_card_desc_p p {
+  font-family: "PNBC-Medium";
+}
+
+.education {
+  width: 100%;
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.education_title {
+  font-family: "PNBC-ExtraBold";
+  align-self: flex-start;
+  margin-left: 1rem;
+}
+.education_divs {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.education_divs {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.education_divs_card {
+  width: 92%;
+  min-height: 15rem;
+  display: flex;
+  position: relative;
+  background-color: rgba(85, 85, 85, 0.473);
+  margin: 1rem 0;
+  box-shadow: 0 0 0.5rem 0.25rem rgba(85, 85, 85, 0.473);
+}
+.education_divs_card img {
+  max-width: 9rem;
+  max-height: 9rem;
+  margin: 0 0 0 0.5rem;
+  position: absolute;
+}
+.education_divs_card_desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.education_divs_card_desc_position {
+  width: calc(100% - 9.5rem);
+  height: 9rem;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.education_divs_card_desc_position h4 {
+  color: white;
+  font-family: "PNBC-ExtraBold";
+  font-size: 1.8rem;
+}
+.education_divs_card_desc h4, .education_divs_card_desc h5 {
+  color: white;
+  font-family: "PNBC-Bold";
+}
+.education_divs_card_desc_p {
+  margin: 0 0.5rem;
+}
+.education_divs_card_desc_p p {
+  color: white;
+  font-family: "PNBC-Medium";
+}
+
+.skills {
+  width: 100%;
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(85, 85, 85, 0.719);
+  box-shadow: 0 0 0.5rem 0.5rem rgba(85, 85, 85, 0.719);
+}
+.skills_title {
+  color: white;
+  font-family: "PNBC-ExtraBold";
+  align-self: flex-start;
+  margin-left: 1rem;
+}
+.skills_divs {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  gap: 1rem 0;
+}
+.skills_divs_ring {
+  width: 9rem;
+  height: 9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #2FBCED;
+  border-radius: 4.5rem;
+  position: relative;
+  overflow: hidden;
+}
+.skills_divs_ring_fill {
+  width: 9rem;
+  height: 9rem;
+  background-color: #2FBCED;
+  position: absolute;
+  top: 50%;
+}
+.skills_divs_ring_ringIn {
+  width: 7.5rem;
+  height: 7.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #2FBCED;
+  border-radius: 3.75rem;
+  background-color: rgb(128, 125, 125);
+  z-index: 3;
+}
+.skills_divs_ring_ringIn img {
+  width: 3rem;
+  height: 3rem;
+}
+
+.projects {
+  width: 100%;
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.projects_title {
+  font-family: "PNBC-ExtraBold";
+  align-self: flex-start;
+  margin-left: 1rem;
+}
+.projects_divs {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 * {
@@ -165,4 +361,8 @@ body {
   border: none;
   background-image: url("./../img/fondo.png");
   background-size: contain;
+}
+
+section {
+  margin-bottom: 1rem;
 }/*# sourceMappingURL=style.css.map */
