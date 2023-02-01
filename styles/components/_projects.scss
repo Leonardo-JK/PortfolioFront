@@ -1,0 +1,21 @@
+.projects {
+    width: 100%;
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+    &_title {
+        font-family: 'PNBC-ExtraBold';
+        align-self: flex-start;
+        margin-left: 1rem;
+    }
+
+    &_divs {
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

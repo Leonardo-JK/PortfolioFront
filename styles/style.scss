@@ -4,6 +4,9 @@
 @import './components/header';
 @import './components/information';
 @import './components/workExperience';
+@import './components/education';
+@import './components/skills';
+@import './components/projects';
 
 * {
     margin: 0;
@@ -17,6 +20,8 @@ body {
     border: none;
     background-image: url('./../img/fondo.png');
     background-size: contain;
-
 }
 
+section {
+    margin-bottom: 1rem;
+}
